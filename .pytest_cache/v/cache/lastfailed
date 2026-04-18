@@ -1,0 +1,5 @@
+{
+  "tests/test_any.py::test_m": true,
+  "tests/test_cart.py::test_cart_flow": true,
+  "tests/test_checkout.py::test_checkout": true
+}
