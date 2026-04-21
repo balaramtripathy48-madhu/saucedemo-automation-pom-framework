@@ -5,9 +5,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from pages.saucedemo_login import LoginPage
 @pytest.fixture()
 def driver():
-    options = Options()
-    prefs = {"credentials_enable_service": False,"profile.password_manager_enabled":False}
-    options.add_experimental_option("prefs",prefs)
     driver = webdriver.Firefox()
     driver.maximize_window()
     yield driver
